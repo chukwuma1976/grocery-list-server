@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Meat",
+    "category": "Bread",
+    "id": "344abd1e-cac2-4010-87b4-f65d1c37a635"
+  },
+  {
+    "name": "Milk",
+    "category": "Dairy",
+    "id": "9fc1519d-15b1-47ec-a0c9-506f0af824f2"
+  },
+  {
+    "name": "Chicken",
+    "category": "Meat",
+    "id": "b3ecb07d-fc33-4fcb-8c77-d3cd05058abe"
+  },
+  {
+    "name": "Steak",
+    "category": "Meat",
+    "id": "9785dc69-5746-43c5-87fc-8417f84b87bc"
+  },
+  {
+    "id": "7f10fe5a-5819-414b-a3ef-241174189942",
+    "name": "Thai Salad",
+    "category": "Vegetables"
+  }
+]
