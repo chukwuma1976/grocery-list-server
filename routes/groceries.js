@@ -42,9 +42,9 @@ router.get('/:id', (req, res) => {
 // Adding a new grocery to our mock database
 router.post('/', (req, res) => {
     const grocery = req.body;
-    const id = (groceries.length + 1).toString();
-    groceries.push({ ...grocery, id: uuidv4() });
-    res.send(grocery);
+    const updatedGrocery = { ...grocery, id: uuidv4() }
+    groceries.push(updatedGrocery);
+    res.send(updatedGrocery);
     writeJSON(groceries);
 })
 
